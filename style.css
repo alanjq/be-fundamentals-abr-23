@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Barra superior */
+section {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+section header ul {
+    display: flex;
+    justify-content: center;
+}
+
+section header ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+a {
+    color: #111;
+    font-size: 20px;
+}
+
+/* Sección de búsqueda */
+.main {
+    text-align: center;
+    margin: 10vh auto;
+    display: block;
+}
+
+.search-content input {
+    margin-top: 1em;
+    padding: .3em;
+    font-size: 20px;
+}
+
+.buttons button {
+    margin-top: 1em;
+    padding: .2em;
+    font-size: 1.2em;
+}
