@@ -1,6 +1,6 @@
 const userEndpoint = 'https://jsonplaceholder.typicode.com/users'
 
-fetch(userEndpoint)
+    fetch(userEndpoint)
     .then((response) => response.json())
     .then((json) => {
         console.log('resultado', json);
@@ -13,7 +13,7 @@ fetch(userEndpoint)
     .catch((errmsg) => {
         console.error('Falló la API user', errmsg);
     })
-
+    
 // Creamos una fila para agregar a la tabla
 function createRow(user) {
     const rowstring = `

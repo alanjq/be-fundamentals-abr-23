@@ -8,9 +8,19 @@
     <title>Document</title>
     <script src="app.js" lang="javascript"></script>
     <script src="users.js" lang="javascript"></script>
+    <script src="createuser.js" lang="javascript"></script>
 </head>
 
 <body>
+    <h1>Crear usuario usando FETCH - POST</h1>
+    <form>
+        Name: <input id="textName" /> <br />
+        Username: <input id="textUsername" /><br />
+        Email: <input id="textEmail" /><br />
+        <button type="button" onclick="createNewUser()">Crear usuario</button>
+    </form>
+
+    <h1>Mostrando el primer dato</h1>
     <p>Completed: <label id="completed"></label>
     </p>
     <p> ID:
@@ -23,6 +33,7 @@
         <label id="userid"></label>
     </p>
 
+    <h1>Mostrando todos los datos en una tabla</h1>
     <div>
         <table id="table">
             <tr>
