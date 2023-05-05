@@ -13,6 +13,10 @@ button {
     background-color: blueviolet;
     border: none;
 }
+#msg {
+    background-color: red;
+    color: white;
+}
 .cities li {
     background: white;
     padding: 1em 2em;
@@ -21,4 +25,8 @@ button {
 .cities  {
     gap: 1em;
     display: flex;
+}
+#time {
+    color: white !important;
+    font-size: 1.2em;
 }
