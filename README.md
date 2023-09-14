@@ -1,0 +1,2 @@
+API key clima
+d95c58501f2b55424cb26ca37c06e37a
